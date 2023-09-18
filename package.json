@@ -1,0 +1,21 @@
+{
+  "name": "arma-theme",
+  "displayName": "arma theme",
+  "description": "Ready to shot",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "arma dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arma_theme-color-theme.json"
+      }
+    ]
+  }
+}
